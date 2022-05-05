@@ -1,49 +1,61 @@
-body{
-  margin: 0;
-  font-family: 'Domine', serif;
-}
-.top{
-  color: #420516;
-}
-h1{
-  margin-top: 0;
-  font-family: 'Cinzel', serif;
-}
-h6{
-  font-family: 'Raleway', sans-serif;
-}
-.middle{
-  width: 200px;
-  height: 200px;
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-}
-.bottom{
-  width: 200px;
-  height: 200px;
-}
-div{
-  text-align: center;
-}
+<head>
+  <meta charset="utf-8">
+  <title>Rishita Das</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico?v=2">
 
-span{
-  position: relative;
-  top: 218px;
-}
-.watercolor{
-  height: 550px;
-  width: 580px;
-  position: absolute;
-  left: 32%;
-}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway&display=swap" rel="stylesheet">
 
-.menu{
-  width: 50px;
-  height: 60px;
-  position: relative;
-  left: 95.4%;
-  bottom: 480px;
-}
-.menu:hover{
-  width: 60px;
-  height: 70px;
-}
+</head>
+
+<body>
+
+  <div>
+    <img class="watercolor" src="watercolor.png" />
+    <div class="top">
+
+        <h1>Hey, I'm Rishita</h1>
+        <h6>A programmer and a poet. </h6>
+
+    </div>
+
+  </div>
+
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  <br /><br /><br /><br /><br /><br />
+  <br /><br /><br /><br /><br /><br />
+  <br /><br /><br /><br /><br /><br />
+  <br /><br /><br />
+
+
+
+
+  <div class="middle">
+
+    <div class="profile">
+      <img class="profile-bottom" src="watercolor.png" />
+      <div>
+        <img class="profile-photo"src="profile.png" />
+
+      </div>
+
+
+  </div>
+
+
+  <div class="bottom">
+
+  </div>
+  <a href="menu.html"><img class="menu" src="menu.png" /></a>
+  <div>
+
+  </div>
+
+</body>
+
+</html>
